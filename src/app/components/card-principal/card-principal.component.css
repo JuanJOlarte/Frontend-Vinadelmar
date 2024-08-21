@@ -1,0 +1,64 @@
+*{
+    border: red;
+}
+.container-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 600px;
+    gap: 10px;
+}
+.cards{
+    display: grid;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-items: center;
+    
+}
+.card-content{
+    display: grid;
+    height: 30%;
+    width:  80%;
+    text-align: center;
+    align-items: center;
+    background: rgba(13, 12, 12, 0.551);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+}
+.card1{
+    background-image: url("/img/hamburguesas.jpg.webp");
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url(/img/PESCADO-740304.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    font-size: 10px;
+}
+.card-content h1{
+    color: #fff;
+    font-size: 42px;
+}
+
+.card-content:hover{
+    height: 60%;
+    width: 90%;
+    transition: .5s;
+}
+.card-content::after{
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    content:"Hamburguesa doble carne" ;
+}
+.card-content:hover::after{
+    color: #fff;
+    font-size: 40px;
+    content: "hola soy el contenido que cambia cuando el cursor pasa por encima de la caja, hago el efecto hover y simulare ser la descripcion del producto ";
+}

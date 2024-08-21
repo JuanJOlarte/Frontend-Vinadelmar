@@ -1,0 +1,8 @@
+:root{
+    --titlemain: "Matemasie", sans-serif;
+    --navbaritems: "PT Serif", serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

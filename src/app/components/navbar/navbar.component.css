@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4D5859;
+    color: white;
+}
+.navbar-items h1{
+    font-size:  37px;
+    font-family: var(--titlemain);
+}   
+.navbar-items h2{
+    font-size: 23px;
+    font-family: var(--navbaritems);
+}
+
+

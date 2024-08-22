@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    background-color: #F27405;
+    position: relative;
+    overflow: hidden;
+    height: 20px;
+}
+.utility-bar_text{
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        left: 100%;
+    }
+    100%{
+        left: -30%;
+    }
+}
+

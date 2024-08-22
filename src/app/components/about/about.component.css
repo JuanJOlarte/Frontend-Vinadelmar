@@ -46,7 +46,6 @@ h1 {
 }
 
 .boton {
-    grid-area: buttons;
     border-radius: 20px;
     height: 60px;
     width: 300px;
@@ -55,8 +54,8 @@ h1 {
     background-color: rgb(132, 105, 90);
     color: rgb(255, 255, 255);
     border: none;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);
     cursor: pointer;
+
 }
 
 .boton:hover {
@@ -77,6 +76,7 @@ h1 {
     background-color: red;
     color: white;
     border: none;
+    border-radius: 20px 0px 0px 20px;
     font-size: 20px;
     height: 482px;
     width: 50px;

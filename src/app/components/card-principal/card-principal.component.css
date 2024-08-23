@@ -27,13 +27,11 @@ backdrop-filter: blur(6.3px);
 -webkit-backdrop-filter: blur(6.3px);
 }
 .card1{
-    background-image: url("/img/hamburguesas.jpg.webp");
     background-position: center;
     background-size:auto;
     background-repeat: no-repeat;
 }
 .card2{
-    background-image: url(/img/PESCADO-740304.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

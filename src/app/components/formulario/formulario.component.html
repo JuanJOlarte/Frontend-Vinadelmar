@@ -1,0 +1,48 @@
+<div class="body">
+    <div class="container">
+        <nav class="nav-1">
+            <h1 class="titulo">Formulario de reserva</h1>
+        </nav>
+        <div class="items">
+            <form class="box" (ngSubmit)="onSubmit(miFormulario)" #miFormulario="ngForm">
+                <ul>
+                    <li class="item-1">
+                        <label for="nombre">Nombre:</label>
+                        <input class="item-2" type="text" placeholder="ingresa tu nombre" [(ngModel)]="name" name="name">
+                    </li>
+                </ul>
+                <ul>
+                    <li class="item-3">
+                        <label for="correo">Correo:</label>
+                        <input class="item-4" type="email" placeholder="Example@gmail" [(ngModel)]="email" name="email">
+                    </li>
+                </ul>
+                <ul>
+                    <li class="item-5">
+                        <label for="Telefono">Telefono:</label>
+                        <input class="item-6" type="text" placeholder="3123456789" [(ngModel)]="number" name="number">
+                    </li>
+                </ul>
+                <ul>
+                    <li class="item-7">
+                        <label for="Fecha">Fecha:</label>
+                        <input class="item-8" type="date" [(ngModel)]="date" name="date">
+                    </li>
+                </ul>
+                <ul>
+                    <li class="item-9">
+                        <label for="Hora">HORA:</label>
+                        <input class="item-10" type="time" placeholder="13:00" [(ngModel)]="hour" name="hour">
+                    </li>
+                </ul>
+                <ul>
+                    <li class="item-11">
+                        <label for="Peticion">Peticion:</label>
+                        <input class="item-12" type="text" placeholder="Requisito">
+                    </li>
+                </ul>
+                <button type="submit" class="boton">RESERVAR</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-card-service',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './card-service.component.html',
   styleUrl: './card-service.component.css'
 })

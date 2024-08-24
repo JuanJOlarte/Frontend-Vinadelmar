@@ -1,0 +1,142 @@
+.body {
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../../../../public//images/imgFormulario.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 754px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-shadow: 20px 0px 7px rgba(77, 88, 89, 0.74);
+}
+
+.box {
+    background-color: rgba(77, 88, 89, 0.445);
+    border-radius: 40px;
+    padding: 20px;
+    width: 100%;
+    max-width: 754px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.items li {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+
+.item-2,
+.item-4,
+.item-6,
+.item-8,
+.item-10,
+.item-12 {
+    background-color: rgb(77, 88, 89);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 345px;
+    max-width: 370px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.863);
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: cursive;
+}
+
+.boton {
+    font-family: cursive;
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(132, 105, 90);
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.863);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.boton:hover {
+    background-color: #000000;
+}
+
+.boton:active {
+    background-color: #000000;
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgb(132, 105, 90);
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+}
+
+.noty_body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.noty_effects_open {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.noty_effects_close {
+    opacity: 1;
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+    }
+}

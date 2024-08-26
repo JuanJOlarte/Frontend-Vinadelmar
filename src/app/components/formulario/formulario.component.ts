@@ -19,8 +19,8 @@ export class FormularioComponent {
   name:string = ''
   email:string = ''
   number:number =0
-  date:string =''
-  hour: number =0
+  date:Date = new Date();
+  hour:  string = '';
   request: string=''
 
   onSubmit(form: NgForm) {

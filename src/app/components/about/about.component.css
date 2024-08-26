@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     gap: 20px;
     padding: 10rem 6rem;
-    width: 50%;
+    width: 100%;
     max-width: 1200px;
     border-radius: 10px;
 }
@@ -78,7 +78,7 @@ h1 {
     border: none;
     border-radius: 20px 0px 0px 20px;
     font-size: 20px;
-    height: 482px;
+    height: 500px;
     width: 50px;
     text-align: center;
     display: grid;

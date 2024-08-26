@@ -6,7 +6,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-family: cursive;
-    place-items: center;
 }
 
 .container {
@@ -21,28 +20,24 @@ body {
 }
 
 h1 {
-    display: flex;
-    flex-direction: start;
     color: RGB(255, 187, 12);
     font-size: 40px;
-    text-align: center;
+    text-align: start;
     margin: 0;
 }
 
 .p1 {
-    display: flex;
-    flex-direction: start;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     margin: 0;
 }
 
 .p2 {
-    grid-area: content;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    padding-right: 20px;
+    padding-right: 650px;
+    margin-bottom: 20px;
 }
 
 .boton {
@@ -55,7 +50,7 @@ h1 {
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-
+    margin-bottom: 20px;
 }
 
 .boton:hover {

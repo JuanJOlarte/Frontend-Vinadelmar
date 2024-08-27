@@ -45,3 +45,7 @@ backdrop-filter: blur(6.3px);
     color: #fff;
     font-size: 40px;
 }
+
+.cards {
+    background-size: cover;
+}

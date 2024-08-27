@@ -1,0 +1,72 @@
+.footer {
+    background-color: rgb(77, 88, 89);
+    font-family: cursive;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: rgb(255, 187, 12);
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    max-width: 800px;
+    padding-right: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los botones con espacio entre ellos */
+    align-items: center;
+    width: 85%;
+}
+
+.boton1,
+.boton2,
+.boton3,
+.boton4 {
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+

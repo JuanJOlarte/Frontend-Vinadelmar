@@ -20,8 +20,7 @@ export class FormularioComponent {
   email:string = ''
   number:number =0
   date:Date = new Date();
-  hour:  string = '';
-  request: string=''
+  
 
   onSubmit(form: NgForm) {
     if (form.valid) {

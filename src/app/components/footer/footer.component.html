@@ -1,0 +1,32 @@
+<div class="footer">
+    <h1>Donde Encontrarnos</h1>
+    <div class="container">
+        <div class="text">
+            <h2>Ubicacion</h2>
+            <p>Viña del Mar <br> Calle 78#16b-11 <br> viñadelmar&#64;gmail.com <br> 3109088349</p>
+            
+            <h2>Horarios</h2>
+            <p>De lunes a viernes 5:00 pm - 2:00 am <br> De sábado a domingo 6:00 pm - 2:30 am</p>
+        </div>
+        <div id="map"></div>
+    </div>
+    <div class="botones">
+        <button class="boton1"></button>
+        <button class="boton2"></button>
+        <button class="boton3"></button>
+        <button class="boton4"></button>
+    </div>
+    
+    <script>
+        var map = L.map('map').setView([4.633469, -74.060635], 13);
+        
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            maxZoom: 19,
+            attribution: 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'
+        }).addTo(map);
+        
+        L.marker([4.633469, -74.060635]).addTo(map)
+        .bindPopup('Estamos aquí.<br> Calle 66-30')
+        .openPopup();
+        </script>
+</div>

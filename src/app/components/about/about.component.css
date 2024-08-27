@@ -18,9 +18,6 @@
     flex-direction: column;
     gap: 20px;
     padding: 10rem 6rem;
-    width: 100%;
-    max-width: 1200px;
-    border-radius: 10px;
 }
 
 h1 {
@@ -91,4 +88,10 @@ h1 {
 
 .boton1:active {
     color: RGB(255, 187, 12);
+}
+a{
+    font-size: 29px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    z-index: 1000;
 }

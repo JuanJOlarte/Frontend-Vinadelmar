@@ -61,9 +61,7 @@
 .item-2,
 .item-4,
 .item-6,
-.item-8,
-.item-10,
-.item-12 {
+.item-8{
     background-color: rgb(77, 88, 89);
     border: none;
     border-radius: 20px;

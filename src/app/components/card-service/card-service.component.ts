@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { GetImgFirstService } from '../../services/get-img-first.service';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-card-service',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './card-service.component.html',
   styleUrl: './card-service.component.css'
 })

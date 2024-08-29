@@ -36,16 +36,20 @@ backdrop-filter: blur(6.3px);
     width: 90%;
     transition: .5s;
 }
-.card-content::after{
-    font-size: 40px;
-    color: #fff;
-    display: block;
-}
-.card-content:hover::after{
-    color: #fff;
-    font-size: 40px;
-}
 
 .cards {
     background-size: cover;
+    background-position: center;
+}
+
+.hide {
+    display: none;
+}
+.card-content p{
+    font-size: 40px;
+    color: #fff;
+
+}
+.ngClass{
+    transition: 2s;
 }

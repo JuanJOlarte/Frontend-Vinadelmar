@@ -5,6 +5,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CardPrincipalComponent } from './components/card-principal/card-principal.component';
 import { CardServiceComponent } from './components/card-service/card-service.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 export const routes: Routes = [
 
@@ -13,7 +14,8 @@ export const routes: Routes = [
     {path:"conocenos", component: AboutComponent},
     {path:"servicios", component: CardServiceComponent},
     {path: "contactanos", component: FooterComponent},
-    {path: "botton", component: FormularioComponent}
+    {path: "botton", component: FormularioComponent},
+    {path: "menu", component: MenuComponent}
 ];
 
 

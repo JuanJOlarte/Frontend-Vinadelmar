@@ -1,69 +1,66 @@
 .body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    background: 
+    linear-gradient(270deg, rgba(255, 255, 255, 0.1), rgb(0, 0, 0)),
+    url('../../../../public//images/acer.jpg');
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: cursive;
 }
 
 .container {
-    background-image: url('../../../../public//images/aoutreal.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10rem 6rem;
+    display: grid;
+    width: 60%;
+    grid-template-rows: 350px 350px;
+    justify-content: center;
 }
-
-h1 {
+.items-content1{
+    display: grid;
+    align-items: center;
+}
+.items1 h1{
+    font-size: 90px;
     color: RGB(255, 187, 12);
-    font-size: 40px;
-    text-align: start;
-    margin: 0;
+    margin-left: 40px;
+    font-family: var(--navbaritems);
 }
-
-.p1 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-align: start;
-    margin: 0;
+.items1 h2{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 50px;
+    color: white;
+    font-family: var(--textprincipal);
 }
-
-.p2 {
-    color: rgb(255, 255, 255);
+.items-content button{
+    height: 100px;
+    width: 100px;
+}
+.items-content2{
+    display: grid;
+    justify-items: center;
+}
+.items-content2 p{
+    color: white;
     font-size: 25px;
-    padding-right: 650px;
-    margin-bottom: 20px;
+    margin-left: 40px;
+    line-height: 1.6;
+    font-family: var(--textprincipal);
 }
-
-.boton {
-    border-radius: 20px;
-    height: 60px;
-    width: 300px;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(132, 105, 90);
-    color: rgb(255, 255, 255);
+.items-content2 button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
     border: none;
+    border-radius: 80px;
+    background-color: #d99379;
+    color: white;
+    box-shadow: 5px 5px 7px black;
     cursor: pointer;
-    margin-bottom: 20px;
 }
 
-.boton:hover {
-    background-color: #000000;
+.items-content2 button:hover{
+    scale: 1.1;
+    background-color: #733e20;
 }
-
-.boton:active {
-    background-color: #000000;
-    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1);
-    color: rgb(132, 105, 90);
-}
-
 .boton1 {
     position: fixed;
     top: 50%;

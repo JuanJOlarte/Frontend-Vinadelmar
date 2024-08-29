@@ -16,16 +16,18 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 1fr);
-    height: 60%;
-    width: 80%;
+    height: 80%;
+    width: 70%;
     justify-items: center;
     text-align: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.432);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.3px);
-    -webkit-backdrop-filter: blur(6.3px);
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.57);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3px);
+-webkit-backdrop-filter: blur(3px);
+border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .card-content button {
@@ -36,9 +38,36 @@
     background-color: #84695A;
     color: #fff;
     font-size: 30px;
+    box-shadow: 4px 8px 9px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-content button:hover {
     scale: 1.1;
     transition: .2s;
+    background-color: #733e20;
+}
+.card1{
+    background-image: url(./../../../../public/images/dc41589b396b502a168117f310cc81df.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    background-image: url(./../../../../public/images/reserva.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-content h1{
+    font-size: 70px;
+    font-family: var(--navbaritems);
+}
+.card-content p{
+    font-size: 40px;
+    font-family: var(--textprincipal);
+}
+.card-content a{
+    text-decoration: none;
+    color: #fff;
 }

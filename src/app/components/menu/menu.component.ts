@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { GetImgFirstService } from '../../services/get-img-first.service';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+
 @Component({
-  selector: 'app-card-principal',
+  selector: 'app-menu',
   standalone: true,
-  imports: [CommonModule],
-  templateUrl: './card-principal.component.html',
-  styleUrl: './card-principal.component.css'
+  imports: [CommonModule, NavbarComponent],
+  templateUrl: './menu.component.html',
+  styleUrl: './menu.component.css'
 })
-export class CardPrincipalComponent {
+export class MenuComponent {
   images: any
-  description: boolean = false
-  activeIndex: number | null = null; 
 
   constructor(private getImgFirstService: GetImgFirstService,) {}
 
@@ -30,13 +30,5 @@ export class CardPrincipalComponent {
       }
     )
   }
-
-  showDescription(index: number) {
-    this.activeIndex = index;
-  }
-
-  hideDescription() {
-    this.activeIndex = null;
-  }
-  
 }
+

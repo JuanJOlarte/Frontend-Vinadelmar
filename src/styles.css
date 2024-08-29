@@ -1,6 +1,8 @@
 :root{
-    --titlemain: "Matemasie", sans-serif;
-    --navbaritems: "PT Serif", serif;
+    --titlemain: "Ubuntu", sans-serif;
+    --navbaritems: "Caveat", cursive;
+    --textprincipal: "Raleway", sans-serif;
+    
 }
 *{
     margin: 0;

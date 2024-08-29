@@ -14,11 +14,12 @@
     color: black;
 }
 .navbar-items h1{
-    font-size:  37px;
-    font-family: var(--titlemain);
+    font-size:  45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }   
 .navbar-items h2{
-    font-size: 23px;
+    font-size: 40px;
     font-family: var(--navbaritems);
 }
 a{

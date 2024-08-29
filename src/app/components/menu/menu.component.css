@@ -1,0 +1,55 @@
+
+.container-main{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30%);
+    gap: 50px;
+}
+.cards{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 500px !important;
+}
+.card-content{
+    display: grid;
+    height: 80%;
+    width:  80%;
+    text-align: center;
+    align-items: center;
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.03);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+-webkit-backdrop-filter: blur(2.9px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+.card-content h1{
+    color: #fff;
+    font-size: 42px;
+    text-shadow: 5px 7px 7px black;
+}
+.card-content p{
+    color: #fff;
+    font-size: 25px;
+    text-shadow:2px 2px 2px black;
+}
+.card-content h2{
+    background: hsla(0, 0%, 100%, 0.86);
+    box-shadow: 3px 5px 7px black ;
+    font-size: 30px;
+    text-shadow: 0px 2px 6px #f9f9f9;;
+    color: #000000;
+}
+.cards {
+    background-size: cover;
+    background-position: center;
+}
+.card-content:hover{
+    scale: 1.25;
+    opacity: 0%;
+    transition: .3s;
+}

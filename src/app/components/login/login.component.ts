@@ -23,7 +23,7 @@ export class LoginComponent {
       response =>{
         console.log('usuario logeado', response)
         this.showSuccessAlert(response.msg);
-        this.route.navigate(['/reservaciones'])
+        this.route.navigate(['/menuAdmin'])
       },
       error =>  {
         console.error('Error al crear la reserva:', error);

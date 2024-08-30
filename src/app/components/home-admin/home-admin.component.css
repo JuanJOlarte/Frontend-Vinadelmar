@@ -1,0 +1,48 @@
+.admin h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box-principal{
+    background-color: rgba(85, 163, 172, 0.462);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+.box-options{
+    display: grid;
+    height: 80%;
+    width: 80%;
+    background-color: #d9d8d7;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 40% 30%;
+    justify-items: center;
+}
+.box-options h1{
+    font-size: 40px;
+}
+.box-options p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+.box-options button{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 80px;
+    background-color: rgb(65, 131, 211);
+    color: white;
+    font-size: 20px;
+}
+.box-options button:hover{
+    background-color: rgb(4, 4, 128);
+    transition: .3s;
+}

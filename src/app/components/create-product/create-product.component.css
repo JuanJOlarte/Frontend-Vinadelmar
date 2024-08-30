@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.division-landing{
+    display: grid;
+    grid-template-rows: 730px;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(85, 163, 172, 0.462);
+    /* background-image: url(/assets/img/img/fondologin.png); */
+    background-size: cover;
+}
+.divisions{
+    display: grid;
+    height: 80%;
+    width: 70%;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    /* background-color: #F2EEEB; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* From https://css.glass */
+background: rgba(237, 227, 219, 0.15);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(237, 227, 219, 0.68);
+}
+.itemsLogin h1{
+    color: #fcfcfc;
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 5px #000000;
+}
+.itemsLogin button{
+    background-color: rgb(65, 131, 211);
+    color: #ffffff;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 80px;
+    font-size: 30px;
+    box-shadow: -10px 10px 20px black;
+}
+.itemsLogin button:hover{
+    background-color: rgb(4, 4, 128);
+    color: #F2EEEB;
+    transition: .2s;
+}
+input#name {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 500px;
+    font-size: 26px;
+    text-align: center;
+    font-family: cursive;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px black;
+}
+input#feature {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+}
+input#img {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 500px;
+    font-size: 26px;
+    text-align: center;
+    font-family: cursive;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px black;
+}
+input#description{
+    margin-bottom: 20px;
+    height: 100px;
+    width: 500px;
+    font-size: 15px;
+    text-align: center;
+    font-family: cursive;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px black;
+}
+input#value{
+        margin-bottom: 20px;
+        height: 40px;
+        width: 500px;
+        font-size: 15px;
+        text-align: center;
+        font-family: cursive;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0px 10px 30px black;
+}
+
+element.style {
+    font-size: 26px;
+}
+#loginItem{
+    display: grid;
+    align-self: start;
+}
+#loginItem p{
+    font-size: 20px;
+    color: #F2EEEB;
+}
+#loginItem a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #F2EEEB;
+    text-shadow: 4px 3px 2px black;
+}
+#loginItem a:hover{
+    font-weight:bold;
+    color: black;
+    text-shadow: 2px 2px 1px #F2EEEB;
+}
+.division-landing  img{
+    position: absolute;
+    margin-left: 1200px;
+    margin-bottom: 550px;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+

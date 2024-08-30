@@ -1,0 +1,19 @@
+<div class="division-landing">
+    <img id="btnCambiarPagina" src="/assets/img/icons/material-symbols_home.png" alt="icon">
+<div class="divisions">
+<div class="itemsLogin">
+    <h1>INGRESA</h1>
+</div>
+<div class="itemsLogin">
+    <form (ngSubmit)="login()">
+        <input id="user" type="text" placeholder="Ingresa tu usuario" [(ngModel)]="email" name="email"><br>
+        <input id="password" type="password" placeholder="Contraseña"  [(ngModel)]="password" name="password"><br>
+        <button type="submit">Enviar datos</button>
+    </form> <br>
+</div>
+<div id="loginItem" class="itemsLogin">
+    <P>Aun no tienes tu cuenta</P>
+    <a href="">Registrate ahora</a>
+</div>
+</div>
+</div>

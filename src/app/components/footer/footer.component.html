@@ -1,32 +1,21 @@
-<div class="footer" id="contactanos">
+<div class="footer">
     <h1>Donde Encontrarnos</h1>
     <div class="container">
         <div class="text">
-            <h2>Ubicacion</h2>
+            <h2>Ubicación</h2>
             <p>Viña del Mar <br> Calle 78#16b-11 <br> viñadelmar&#64;gmail.com <br> 3109088349</p>
-            
+
             <h2>Horarios</h2>
             <p>De lunes a viernes 5:00 pm - 2:00 am <br> De sábado a domingo 6:00 pm - 2:30 am</p>
         </div>
-        <div id="map"></div>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.377782966245!2d-74.05971532584272!3d4.649466842101285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a410ff07825%3A0x66fd695be4ebf18!2sCra.%205%20%2366-30%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1sen!2sau!4v1724986544930!5m2!1sen!2sau"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
     </div>
     <div class="botones">
-        <button class="boton1"></button>
-        <button class="boton2"></button>
-        <button class="boton3"></button>
-        <button class="boton4"></button>
+        <button class="boton1" aria-label="Button 1"></button>
+        <button class="boton2" aria-label="Button 2"></button>
+        <button class="boton3" aria-label="Button 3"></button>
+        <button class="boton4" aria-label="Button 4"></button>
     </div>
-    
-    <script>
-        var map = L.map('map').setView([4.633469, -74.060635], 13);
-        
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            maxZoom: 19,
-            attribution: 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'
-        }).addTo(map);
-        
-        L.marker([4.633469, -74.060635]).addTo(map)
-        .bindPopup('Estamos aquí.<br> Calle 66-30')
-        .openPopup();
-        </script>
 </div>

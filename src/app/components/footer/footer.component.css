@@ -2,11 +2,12 @@
     background-color: rgb(77, 88, 89);
     font-family: cursive;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 h1 {
@@ -35,6 +36,7 @@ p {
     width: 100%;
     max-width: 1200px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -42,31 +44,133 @@ p {
     padding-right: 20px;
 }
 
-#map {
+.mapa {
+    width: 800px;
     height: 400px;
-    width: 100%;
-    max-width: 800px;
-    padding-right: 10px;
+    border: none;
+    margin-left: 20px;
+    filter: grayscale(100%) invert(100%);
 }
 
 .botones {
     display: flex;
     justify-content: space-between;
-    /* Distribuye los botones con espacio entre ellos */
     align-items: center;
     width: 85%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    position: relative;
 }
 
 .boton1,
 .boton2,
 .boton3,
 .boton4 {
-    background-color: transparent;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-size: cover;
     border: none;
     cursor: pointer;
+    background-color: #4d5859;
+    transition: all 0.5s ease-in-out;
+    position: relative;
 }
 
+.boton1::before,
+.boton2::before,
+.boton3::before,
+.boton4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(255 187 12);
+    transition: 0.5s ease;
+}
+
+.boton1:hover::before,
+.boton2:hover::before,
+.boton3:hover::before,
+.boton4:hover::before {
+    width: 100%;
+}
+
+.boton1::after,
+.boton2::after,
+.boton3::after,
+.boton4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffc506;
+    transition: 0.4s ease;
+    z-index: -1;
+}
+
+.boton1:hover::after,
+.boton2:hover::after,
+.boton3:hover::after,
+.boton4:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+}
+
+.boton1 {
+    background-image: url('../../../../public//images/whatsapp.svg'); 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: #4d5859;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.boton2 {
+    background-image: url('../../../../public//images/instagram.svg');
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: #4d5859;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.boton3 {
+    background-image: url('../../../../public//images/telefono.svg');
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: #4d5859;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.boton4 {
+    /* background-image: url('../../../../public//images/noun-callcenter-operator-2799269.svg'); */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: #4d5859;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}

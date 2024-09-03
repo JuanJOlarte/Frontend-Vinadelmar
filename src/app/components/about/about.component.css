@@ -83,7 +83,7 @@
     right: 0;
 }
 
-.boton1:active {
+.boton1 a:active {
     color: RGB(255, 187, 12);
 }
 a{
@@ -91,4 +91,8 @@ a{
     writing-mode: vertical-rl;
     text-orientation: upright;
     z-index: 1000;
+}
+.boton1 a{
+    text-decoration: none;
+    color: white;
 }

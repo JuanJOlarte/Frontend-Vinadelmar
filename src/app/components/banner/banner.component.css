@@ -4,6 +4,7 @@
     position: relative;
     overflow: hidden;
     height: 20px;
+    cursor: pointer;
 }
 .utility-bar_text{
     position: absolute;

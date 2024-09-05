@@ -9,6 +9,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeAdminComponent } from './components/home-admin/home-admin.component';
 import { CreateProductComponent } from './components/create-product/create-product.component';
+import { DeleteProductComponent } from './components/delete-product/delete-product.component';
+import { AboutHomeComponent } from './components/about-home/about-home.component';
 
 export const routes: Routes = [
 
@@ -22,6 +24,8 @@ export const routes: Routes = [
     {path: "login", component: LoginComponent},
     {path: "menuAdmin", component: HomeAdminComponent},
     {path: "createProduct", component: CreateProductComponent},
+    {path: "deleteProduct", component: DeleteProductComponent},
+    {path: "aboutHome", component: AboutHomeComponent}
 ];
 
 

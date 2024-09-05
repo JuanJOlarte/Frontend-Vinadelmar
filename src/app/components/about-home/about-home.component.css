@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{ 
+    background-color: #D9D8D7;
+}
+
+header {
+    background-image: url('./../../../../public/images/imgAbout.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffbb0c;
+}
+
+.header-content h1 {
+    font-size: 180px;
+    margin: 0;
+    text-shadow: 5px 5px 5px black;
+}
+
+.introduccion, 
+.cronologia,
+.narrativa {
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+.timeline {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-item {
+    background-color: #d99379;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #ffbb0c;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

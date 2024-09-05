@@ -1,0 +1,38 @@
+ <!-- Barra de navegación -->
+ <nav class="navbar">
+    <div class="container">
+        <a href="#" class="logo">viña del mar</a>
+        <ul class="nav-links">
+            <li><a href="#">Reservaciones</a></li>
+            <li><a href="#">Menú</a></li>
+            <li><a href="#">Salir</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Contenido principal -->
+<main class="main-content">
+    <div class="container">
+        <h1>ELIMINA PRODUCTOS</h1>
+        <table class="reservation-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>descripcion</th>
+                    <th>confirmar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (image of images; track $index){
+                    <tr>
+                        <td>{{image.name}}</td>
+                        <td>{{image.description}}</td>
+                        <td>
+                            <button class="btn delete-btn" (click)="delProd(image._id)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</main>

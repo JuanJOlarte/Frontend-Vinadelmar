@@ -31,6 +31,7 @@ backdrop-filter: blur(6.3px);
     font-size: 42px;
 }
 
+
 .card-content:hover{
     height: 60%;
     width: 90%;
@@ -46,7 +47,10 @@ backdrop-filter: blur(6.3px);
     display: none;
 }
 .card-content p{
-    font-size: 40px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 50px;
+    font-size: 27px;
     color: #fff;
 
 }

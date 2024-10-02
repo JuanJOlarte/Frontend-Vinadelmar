@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DeleteProductService {
-  private apiUrl = "http://localhost:4001/api"
+  private apiUrl = "http://18.118.213.77:4001/api"
 
   constructor(private http:HttpClient) { }
 

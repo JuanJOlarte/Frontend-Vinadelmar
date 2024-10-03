@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class GetImgFirstService {
-  private apiUrl = "http://localhost:4001/api"
+  private apiUrl = "http://18.191.243.95:4001/api"
 
   constructor(private http : HttpClient) { }
 

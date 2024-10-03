@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ReservService {
-  private api= "http://localhost:4001/api/createReserve"
+  private api= "http://18.191.243.95:4001/api/createReserve"
   constructor(private http: HttpClient) { }
   
   reserva(data:any): Observable<any>{

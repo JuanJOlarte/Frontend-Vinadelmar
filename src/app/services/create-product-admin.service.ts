@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CreateProductAdminService {
-    private apiUrl = "http://localhost:4001/api/createProduct"
+    private apiUrl = "http://18.191.243.95:4001/api/createProduct"
 
   constructor( private http : HttpClient) { }
 
